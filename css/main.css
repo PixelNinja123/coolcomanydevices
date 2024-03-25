@@ -305,14 +305,27 @@ footer {
 
 /*Small devices (landscape phones, 576px and up)*/
 
-@media screen and (max-width: 576px)
-
-{
+@media screen and (max-width: 576px) {
     .container{
-        width: 95%;
+        width: 90%;
     }
     .header_img{
         margin-left: 80px;
+        width: 150px;
+    }
+    input{
+        width: 200px;
+    }
+    .otpravka{
+        width: 200px;
+        height: 100px;
+        font-size: 90%;
 
+    }
+    .main_block{
+        flex-direction: column;
+    }
+    .offer_text{
+        width: 90%;
     }
 }
